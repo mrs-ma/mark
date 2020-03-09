@@ -262,7 +262,7 @@ DOM.offsetTop;  与有定位的父级的  水平和垂直距离
       };
     
       // 问题2：再次按下的鼠标的时候。kaiguan： "弹起"，移动不再执行；
-    
+
 
 
 # 事件解绑
@@ -408,6 +408,8 @@ offsetHeight
 offsetLeft  距离offsetParent offsetParent(定位父亲，没有往上找，直到body) 水平距离
 
 offsetTop
+
+clientWidth的实际宽度   clientWidth = width+左右padding
 
 # 无缝轮播图
 
